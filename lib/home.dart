@@ -15,9 +15,11 @@ class Home extends GetView<MovieApi> {
           Gap(
             getProportionateScreenHeight(50),
           ),
-          const Text(
+          Text(
             'Ratalen',
-            style: TextStyle(),
+            style: TextStyle(
+              fontSize: getProportionateScreenHeight(50),
+            ),
           ),
           controller.obx(
             (state) {
